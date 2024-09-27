@@ -1,5 +1,5 @@
 {
-  "name": "hello-typescript-workspaces",
+  "name": "hello",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,8 +7,5 @@
   },
   "author": "",
   "license": "Apache-2.0",
-  "description": "",
-  "workspaces": [
-    "packages/hello"
-  ]
+  "description": ""
 }
