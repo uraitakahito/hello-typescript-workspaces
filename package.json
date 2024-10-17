@@ -9,7 +9,8 @@
   "license": "Apache-2.0",
   "description": "",
   "workspaces": [
-    "packages/hello"
+    "packages/hello",
+    "packages/a"
   ],
   "devDependencies": {
     "@apify/tsconfig": "^0.1.0",
