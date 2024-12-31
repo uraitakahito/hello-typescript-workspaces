@@ -1,9 +1,16 @@
 {
-	"extends": "./tsconfig.build.json",
 	"compilerOptions": {
+		"target": "ES2020",
+		"lib": ["ESNext", "DOM", "ES2020"],
 		"baseUrl": ".",
-		"paths": {
-			"crawlee": ["packages/hello/src"],
-		}
-	}
+		"allowJs": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": false,
+		"emitDecoratorMetadata": false,
+		"module": "Node16",
+		"moduleResolution": "Node16",
+    "outDir": "./dist"
+	},
+	"include": ["./packages/**/*"],
+	"exclude": ["**/node_modules", "**/dist"]
 }
