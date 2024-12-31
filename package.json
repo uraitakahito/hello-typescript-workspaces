@@ -10,7 +10,7 @@
   "license": "Apache-2.0",
   "description": "",
   "workspaces": [
-    "packages/hello",
+    "packages/exported-module",
     "packages/a"
   ],
   "devDependencies": {

@@ -11,6 +11,6 @@
 	},
   "references": [
     { "path": "packages/a" },
-    { "path": "packages/hello" }    
+    { "path": "packages/exported-module" }    
   ]
 }
