@@ -1,3 +1,3 @@
-import {hello} from '../hello/index.js';
+import { hello } from '../exported-module/index.js';
 
 console.log(hello); // Hello, world!
