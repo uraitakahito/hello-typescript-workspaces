@@ -10,7 +10,7 @@
     "disableSourceOfProjectReferenceRedirect": true
 	},
   "references": [
-    { "path": "packages/a" },
-    { "path": "packages/exported-module" }    
+    { "path": "packages/exported-module" },
+    { "path": "packages/using-internal-esmodule" }
   ]
 }

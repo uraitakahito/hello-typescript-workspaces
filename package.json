@@ -11,7 +11,7 @@
   "description": "",
   "workspaces": [
     "packages/exported-module",
-    "packages/a"
+    "packages/using-internal-esmodule"
   ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.18.0",
