@@ -1,1 +1,3 @@
-export const hello = 'Hello, ES Module!';
+const hello = 'Hello, ES Module!';
+
+export default hello;
