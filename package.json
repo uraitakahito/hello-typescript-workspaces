@@ -11,7 +11,6 @@
   "description": "",
   "workspaces": [
     "packages/exported-module",
-    "packages/a",
     "packages/using-internal-esmodule"
   ],
   "devDependencies": {
