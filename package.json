@@ -4,7 +4,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc -b -v --listFiles"
+    "build": "tsc -b -v --listFiles",
+    "clean": "tsc -b --clean"
   },
   "author": "",
   "license": "Apache-2.0",
