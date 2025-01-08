@@ -15,7 +15,8 @@
     "packages/exported-module",
     "packages/using-internal-esmodule",
     "packages/named-exports-no-default",
-    "packages/local-import-checker"
+    "packages/local-import-checker",
+    "packages/named-exports-with-default"
   ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.18.0",
