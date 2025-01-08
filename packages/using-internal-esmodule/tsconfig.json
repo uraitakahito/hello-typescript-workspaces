@@ -8,7 +8,6 @@
     "sourceMap": true
   },
   "references": [
-    { "path": "../exported-module" },
     { "path": "../named-exports-no-default" },
     { "path": "../named-exports-with-default" }
   ]
