@@ -10,6 +10,7 @@
     "disableSourceOfProjectReferenceRedirect": true
 	},
   "references": [
+    { "path": "packages/local-import-checker" },
     { "path": "packages/named-exports-no-default" },
     { "path": "packages/exported-module" },
     { "path": "packages/using-internal-esmodule" }
