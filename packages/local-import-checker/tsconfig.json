@@ -1,10 +1,7 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "Bundler",
     "outDir": "../../dist/local-import-checker",
     "composite": true,
-    "sourceMap": true
-  },
+  }
 }

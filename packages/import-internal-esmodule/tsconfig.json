@@ -1,11 +1,8 @@
 {
+  "extends": "../../tsconfig.json",
   "compilerOptions": {
-    "target": "ES2022",
-    "module": "ES2022",
-    "moduleResolution": "Bundler",
     "outDir": "../../dist/import-internal-esmodule",
-    "composite": true,
-    "sourceMap": true
+    "composite": true
   },
   "references": [
     { "path": "../named-exports-no-default" },
