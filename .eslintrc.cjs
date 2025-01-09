@@ -86,7 +86,7 @@ const namingRules = {
 module.exports = {
   root: true,
   parserOptions: {
-    project: './tsconfig.eslint.json',
+    project: './tsconfig.json',
   },
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   extends: [
