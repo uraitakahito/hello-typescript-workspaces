@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "tsc -b",
-    "clean": "tsc -b --clean",
+    "cleandep": "rm -r dist node_modules",
     "watch": "tsc -b --watch"
   },
   "author": "",
