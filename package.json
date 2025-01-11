@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc -b -v --listFiles",
+    "build": "tsc -b",
     "clean": "tsc -b --clean",
     "watch": "tsc -b --watch"
   },
