@@ -4,17 +4,18 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "build": "tsc -b -v --listFiles",
-    "clean": "tsc -b --clean",
+    "build": "tsc -b",
+    "cleandep": "rm -r dist node_modules",
     "watch": "tsc -b --watch"
   },
   "author": "",
   "license": "Apache-2.0",
   "description": "",
   "workspaces": [
-    "packages/exported-module",
-    "packages/using-internal-esmodule",
-    "packages/named-exports-no-default"
+    "packages/import-internal-esmodule",
+    "packages/named-exports-no-default",
+    "packages/local-import-checker",
+    "packages/named-exports-with-default"
   ],
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^7.18.0",
@@ -23,6 +24,7 @@
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-airbnb-typescript": "^18.0.0",
     "eslint-plugin-import": "^2.31.0",
-    "typescript": "^5.6.2"
+    "npm-check-updates": "^17.1.13",
+    "typescript": "^5.7.3"
   }
 }

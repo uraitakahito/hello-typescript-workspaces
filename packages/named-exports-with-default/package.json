@@ -1,5 +1,5 @@
 {
-  "name": "named-exports-no-default",
+  "name": "named-exports-with-default",
   "version": "1.0.0",
   "main": "index.js",
   "devDependencies": {
@@ -9,6 +9,6 @@
     "build": "tsc"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "description": ""
 }

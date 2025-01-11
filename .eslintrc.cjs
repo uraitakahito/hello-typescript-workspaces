@@ -86,7 +86,7 @@ const namingRules = {
 module.exports = {
   root: true,
   parserOptions: {
-    project: './tsconfig.eslint.json',
+    project: './tsconfig.json',
   },
   ignorePatterns: ['dist', '.eslintrc.cjs'],
   extends: [
@@ -120,6 +120,13 @@ module.exports = {
     }
   ],
   rules: {
+    //
+    // https://engineering.linecorp.com/ja/blog/you-dont-need-default-export
+    // https://zenn.dev/odiak/articles/9aa48e892e8141
+    // https://github.com/import-js/eslint-plugin-import/blob/main/docs/rules/no-anonymous-default-export.md
+    //
+    'import/no-anonymous-default-export': ['error', { allowCallExpression: false }],
+
     ...namingRules,
   },
 };
