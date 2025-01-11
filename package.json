@@ -12,6 +12,7 @@
   "license": "Apache-2.0",
   "description": "",
   "workspaces": [
+    "packages/import-external-esmodule",
     "packages/import-internal-esmodule",
     "packages/named-exports-no-default",
     "packages/local-import-checker",
