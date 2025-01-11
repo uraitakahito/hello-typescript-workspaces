@@ -11,5 +11,8 @@
   "dependencies": {
     "named-exports-no-default": "^1.0.0",
     "named-exports-with-default": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
   }
 }
